@@ -37,12 +37,6 @@ html{
     width: 100%;
 }
 
- .cat-hid{
-    display: none;
+ .hidden{
+    display: none !important;
 }
- .dog-hid{
-    display:none;
- }
- .cow-hid{
-    display:none;
- }

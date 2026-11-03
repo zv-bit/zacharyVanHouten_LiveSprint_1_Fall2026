@@ -11,8 +11,8 @@
     function hide(){
         buttonCat.addEventListener("click", function(event) {
             const target = event.target;
-                if(target.classList.contains("cat-btn")){
-                    cat.classList.remove("cat-hid"); 
+                if(target.classList.contains("btn-cat")){
+                    cat.classList.remove("hidden"); 
                 }
 
 
