@@ -37,6 +37,12 @@ html{
     width: 100%;
 }
 
- .hidden{
-    display: none !important;
+
+.animal{
+    display: block;
 }
+
+.hidden{
+    display:none;
+}
+

@@ -2,27 +2,30 @@
     "useStrict()";
 
     const buttonCat = document.getElementById("btn-cat");
-    const cat = document.getElementById("cat");
-    const dog = document.getElementById("dog");
-    const cow = document.getElementById("cow");
+    const buttonDog = document.getElementById("btn-dog");
+    const buttonCow = document.getElementById("btn-cow");
+    const cat = document.getElementById("cat-wrapper");
+    const dog = document.getElementById("dog-wrapper");
+    const cow = document.getElementById("cow-wrapper");
 
+    reveal();
     hide();
 
-    function hide(){
+    function reveal(){
         buttonCat.addEventListener("click", function(event) {
-            const target = event.target;
-                if(target.classList.contains("btn-cat")){
-                    cat.classList.remove("hidden"); 
-                }
-                if(target.classList.contains("btn-dog")){
-                    cat.classList.remove("hidden"); 
-                }
-                if(target.classList.contains("btn-cow")){
-                    cat.classList.remove("hidden"); 
-                }
+            cat.classList.remove("hidden");
+        })
+        buttonDog.addEventListener("click", function(event) {
+            dog.classList.remove("hidden");
+        })
+        buttonCow.addEventListener("click", function(event) {  
+            cow.classList.remove("hidden");
+        })
+
+        function hide(){
+            //unfinished
+        }
 
 
-        })}
-
-})();
+}})();
 
