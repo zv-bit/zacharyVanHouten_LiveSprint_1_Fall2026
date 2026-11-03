@@ -25,3 +25,24 @@ html{
     color: var(--text-main);
     line-height: 1.6;
 }
+
+.body{
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0 1.5 rem;
+    display: grid;
+    grid-template-columns: 380 px 1fr;
+    gap: 2rem;
+    flex-grow: 1;
+    width: 100%;
+}
+
+ .cat-hid{
+    display: none;
+}
+ .dog-hid{
+    display:none;
+ }
+ .cow-hid{
+    display:none;
+ }
