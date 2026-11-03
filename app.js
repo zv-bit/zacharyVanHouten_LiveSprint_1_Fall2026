@@ -14,6 +14,12 @@
                 if(target.classList.contains("btn-cat")){
                     cat.classList.remove("hidden"); 
                 }
+                if(target.classList.contains("btn-dog")){
+                    cat.classList.remove("hidden"); 
+                }
+                if(target.classList.contains("btn-cow")){
+                    cat.classList.remove("hidden"); 
+                }
 
 
         })}
