@@ -1,12 +1,7 @@
 :root{
-    --bg-dark: ;
-    --bg-card: ;
-    --primary: ;
-    --primary-hover: ;
+    --primary: #3578d5;
     --border-color: #410653;
-    --accent: ;
     --font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif
-    --transition-speed: 0.2;
 }
 
 *, *::before, *::after{
@@ -35,6 +30,11 @@ html{
     width: 100%;
 }
 
+.picture{
+    display: flex;
+    flex-direction: column;   
+}
+
 .header{
     display:flex;
     flex-direction: column;
@@ -55,7 +55,7 @@ html{
     margin-bottom: 1.25rem;
 }
 
-.header-sub{
+.cta{
     font-size: 1.2rem;
     margin-bottom: 2rem;
     max-width:700px;
@@ -65,23 +65,45 @@ html{
     display: flex;
     flex-direction: grid;
     align-items: end;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 15rem;
     min-width: 100%;
     min-height: 75vh;
     border: 5px solid  var(--border-color);
 }
 
+.cta-wrapper{
+    display: flex;
+    flex-direction: grid;
+    align-items: end;
+    justify-content: center;
+    
+}
+
 .animal{
     border-radius: 8px;
-    width: 25vh;
+    width: 40vh;
     display: block;
 }
 
-.picture{
-    
+
+.btn{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    font-weight:600;
+    text-decoration: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.hdn-btn{
+    background-color: var(--primary);
+    color: #fff;
 }
 
 .hidden{
     display:none;
 }
-

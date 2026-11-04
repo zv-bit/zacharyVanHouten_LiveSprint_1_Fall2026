@@ -19,23 +19,29 @@
     function reveal(){
         buttonCat.addEventListener("click", function(event) {
             cat.classList.remove("hidden");
+            buttonCat.classList.add("hidden");
         })
         buttonDog.addEventListener("click", function(event) {
             dog.classList.remove("hidden");
+            buttonDog.classList.add("hidden");
         })
         buttonCow.addEventListener("click", function(event) {  
             cow.classList.remove("hidden");
+            buttonCow.classList.add("hidden");
         })}
 
         function hide(){
              hideCat.addEventListener("click", function(event) {
                 cat.classList.add("hidden");
+                buttonCat.classList.remove("hidden");
         })
             hideDog.addEventListener("click", function(event) {
                 dog.classList.add("hidden");
+                buttonDog.classList.remove("hidden");
         })
             hideCow.addEventListener("click", function(event) {  
                 cow.classList.add("hidden");
+                buttonCow.classList.remove("hidden");
         })
         }
 

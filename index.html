@@ -9,12 +9,15 @@
 <body>
 <header class="header">
     <div class="header-content">
-        <h1 class="header-main">Welcome to "What Animal Is That?!"</h1>
-        <p class="header-sub">Click an animal name to see what it is!</p>  
+        <h1 class="header-main">Welcome to "What Animal Is That?!"</h1>  
     </div>
 </header>
-<main class="body">
+<main>
+    <div class="cta-wrapper">
+    <p class="cta">Click an animal name to see what it is!</p>
+    </div>  
 
+    <div class="body">
     <div class="picture hidden" id="cat-wrapper">
         <img class="animal" src="tabby-cat.jpg" alt="This is a cat!">
         <button type="button" id="hide-cat" class="btn hdn-btn"> Hide Results</button>
@@ -32,7 +35,7 @@
         <button type="button" id="hide-cow" class="btn hdn-btn"> Hide Results</button>
     </div>
     <button type="button" id="btn-cow" class="btn cow-btn">Reveal a COW</button>
-
+    </div>
 </main>
 <script src="app.js"></script>
 </body>
